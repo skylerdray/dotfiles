@@ -15,7 +15,8 @@
     ~/.zlogin: zlogin
     #shell enviornment & utils
     ~/.dir_colors: dir_colors
-    
+    ~/.gitconfig: gitconfig
+ 
     # X
     ~/.Xresources: Xresources
     ~/.xprofile: xprofile
