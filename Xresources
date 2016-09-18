@@ -1,0 +1,23 @@
+! font settings
+Xft.antialias: true
+Xft.dpi: 96
+Xft.hinting: true
+Xft.hintstyle: hintslight
+Xft.lcdfilter: lcddefault
+Xft.rgba: rgb
+
+! urxvt settings
+URxvt.termName: urxvt
+URxvt.xftAntialias: true
+URxvt.font: xft:SourceCodePro:Medium:pixelsize=14
+URxvt.letterSpace: -1
+URxvt.intensityStyles: false
+URxvt.saveLines: 10000
+URxvt.scrollBar: false
+URxvt.scrollTtyOutput: false
+URxvt.scrollWithBuffer: true
+URxvt.scrollTtyKeypress: true
+URxvt.urgentOnBell: true
+URxvt.internalBorder: 3
+URxvt.perl-ext-common: default,matcher
+URxvt.url-launcher: xdg-open

@@ -1,6 +1,36 @@
 - clean: ['~']
 
+- shell:
+    - git submodule update --init --recursive
+
+- defaults:
+    link:
+      create: true
+      relink: true
+
 - link:
+    # shell
     ~/.zshrc: zshrc
+    ~/.zshenv: zshenv
+    ~/.zlogin: zlogin
+    #shell enviornment & utils
+    ~/.dir_colors: dir_colors
+    
+    # X
+    ~/.Xresources: Xresources
+    ~/.xprofile: xprofile
+    ~/.local/share/fonts/SourceCodePro:
+        create: true
+        path: fonts/SourceCodePro
+    ~/.local/share/fonts/DroidSansMonoDotted:
+        create: true
+        path: fonts/DroidSansMonoDotted
 
-
+    # vim
+    
+    #awesome
+    ~/.config/awesome/rc.lua:
+        create: true
+        path: awesome/rc.lua
+- shell:
+    - fc-cache || true
