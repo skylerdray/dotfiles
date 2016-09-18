@@ -20,7 +20,7 @@
     
     # MPD
     ~/.config/mpd/mpd.conf: mpd/mpd.conf
-    
+    ~/.ncmpcpp/config: ncmpcpp/config    
 
     # X
     ~/.Xresources: Xresources
