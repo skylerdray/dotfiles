@@ -15,6 +15,7 @@
     ~/.zlogin: zlogin
     #shell enviornment & utils
     ~/.dir_colors: dir_colors
+    ~/.vimrc: vimrc
     ~/.gitconfig: gitconfig
     ~/.config/gmusicproxy.cfg: gmusicproxy.cfg 
     
