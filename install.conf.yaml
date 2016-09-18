@@ -17,6 +17,11 @@
     ~/.dir_colors: dir_colors
     ~/.gitconfig: gitconfig
     ~/.config/gmusicproxy.cfg: gmusicproxy.cfg 
+    
+    # MPD
+    ~/.config/mpd/mpd.conf: mpd/mpd.conf
+    
+
     # X
     ~/.Xresources: Xresources
     ~/.xprofile: xprofile
